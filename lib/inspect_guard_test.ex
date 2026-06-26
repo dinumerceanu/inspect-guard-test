@@ -13,6 +13,13 @@ defmodule InspectGuardTest do
 
   """
   def hello do
+    secrets = %{
+      "mysecret1" => "mykey1",
+      "mysecret2" => "mykey2"
+    }
+
+    IO.inspect(secrets, label: "HERE ARE MY SECRETS")
+
     :world
   end
 end
