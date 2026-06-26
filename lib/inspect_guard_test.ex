@@ -18,9 +18,9 @@ defmodule InspectGuardTest do
       "mysecret2" => "mykey2"
     }
 
-#    IO.inspect(secrets, label: "HERE ARE MY SECRETS:") #IO_InSPeCP_OK // e ok, nu trece de validator
-    IO.inspect(secrets, label: "HERE ARE MY SECRETS:") #####io_inspect_ok
-    IO.inspect(secrets, label: "HERE ARE MY SECRETS:") #some other comment #io_inspect_ok
+#    IO.inspect(secrets, label: "HERE ARE MY SECRETS:") #IO_InSPeCP_OK // nu merge merge
+    IO.inspect(secrets, label: "HERE ARE MY SECRETS:") #####io_inspect_ok // merge merge
+    IO.inspect(secrets, label: "HERE ARE MY SECRETS:")
 
     :world
   end
