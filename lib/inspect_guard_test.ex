@@ -20,7 +20,7 @@ defmodule InspectGuardTest do
 
 #    IO.inspect(secrets, label: "HERE ARE MY SECRETS:") #IO_InSPeCP_OK // nu merge merge
     IO.inspect(secrets, label: "HERE ARE MY SECRETS:") #####io_inspect_ok // merge merge
-    IO.inspect(secrets, label: "HERE ARE MY SECRETS:")
+    IO.inspect(secrets, label: "HERE ARE MY SECRETS:") #io_inspect_ok
 
     :world
   end
