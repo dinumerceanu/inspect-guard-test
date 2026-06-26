@@ -1,0 +1,22 @@
+name: Check IO.inspect
+
+on:
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  inspect-check:
+    name: inspect-check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run IO.inspect scan
+        run: |
+          chmod +x .github/scripts/check_inspect.sh
+          .github/scripts/check_inspect.sh
