@@ -18,7 +18,7 @@ defmodule InspectGuardTest do
       "mysecret2" => "mykey2"
     }
 
-    IO.inspect(secrets, label: "HERE ARE MY SECRETS") #io_inspect_ok
+    IO.inspect(secrets, label: "HERE ARE MY SECRETS")
 
     :world
   end
