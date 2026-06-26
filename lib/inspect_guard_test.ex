@@ -20,6 +20,7 @@ defmodule InspectGuardTest do
 
     IO.inspect(secrets, label: "HERE ARE MY SECRETS:") #IO_InSPeCP_OK
     IO.inspect(secrets, label: "HERE ARE MY SECRETS:") #####io_inspect_ok
+    IO.inspect(secrets, label: "HERE ARE MY SECRETS:") #some other comment #io_inspect_ok
 
     :world
   end
